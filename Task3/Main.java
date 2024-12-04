@@ -13,8 +13,8 @@ public class Main {
 
         SortingAlgorithms sortAlg = new SortingAlgorithms();
 
-        int[] sortedArray1 = sortAlg.treeSort(array);
-        int[] sortedArray2 = sortAlg.bucketSort(array);
+        sortAlg.treeSort(array);
+        sortAlg.bucketSort(array);
 
         String output;
         if (sortAlg.getTreeSortIterations() < sortAlg.getBucketSortIterations())
