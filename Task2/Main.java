@@ -1,7 +1,7 @@
 package Task2;
 
 public class Main {
-    public static void main(String[] args) {
-        System.out.println(Euclid.GCD(0, 25));
+    public static void main(String[] aArgs) {
+        System.out.println(Euclid.GCD(6422, 4914));
     }
 }

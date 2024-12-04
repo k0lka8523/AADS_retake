@@ -3,7 +3,7 @@ package Task3;
 import java.util.Random;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] aArgs) {
         Random random = new Random();
         int numberOfElements = 1000;
         int[] array = new int[numberOfElements];
@@ -25,16 +25,5 @@ public class Main {
             output = "Tree sort and Bucket sort have the same number of iterations";
 
         System.out.println(output);
-
-        System.out.println("Tree sort   - " + sortAlg.getTreeSortIterations());
-        System.out.println("Bucket sort - " + sortAlg.getBucketSortIterations());
-
-        for (int i = 0; i < sortedArray1.length; i++) {
-            if (sortedArray1[i] != sortedArray2[i]) {
-                System.out.println("Arrays are not the same!!!");
-                return;
-            }
-        }
-        System.out.println("Arrays are the same)");
     }
 }
